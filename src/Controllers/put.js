@@ -1,4 +1,3 @@
-import User from '../Models/user';
 let put = {};
 
 put.user = async (req, res) => {
