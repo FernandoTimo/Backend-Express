@@ -2,8 +2,8 @@ import User from '../Models/User';
 let get = {};
 
 get.user = async (req, res) => {
-  const okey = true;
-  const badey = false;
+  const okey = false;
+  const badey = true;
 
   let user = new User({
     name: 'FernandoTimo',
