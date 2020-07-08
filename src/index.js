@@ -6,7 +6,7 @@ const server = express();
 
 import mongoose from 'mongoose';
 import cors from 'cors';
-import Router from './router/index';
+import Router from './router/index.routes';
 
 server.use(cors());
 server.use(express.urlencoded({ extended: true }));

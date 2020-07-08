@@ -1,18 +1,10 @@
-import User from '../Models/User';
+import exampleSchema from '../Models/exampleSchema';
 let get = {};
 
-get.user = async (req, res) => {
-  const okey = false;
-  const badey = true;
-
-  let user = new User({
-    name: 'FernandoTimo',
-  });
-  user.save();
-  const users = await User.find();
-  // res.send('calla get');
-  okey ? res.json(users) : res.json({ respuesta: 'todo salio mal :D jojoi' });
-  badey ? res.json({ respuesta: 'todo salio mal :D jojoi' }) : res.json(users);
+get.example = async (req, res) => {
+  console.log('url:', req.url);
+  const respuesta = await exampleSchema.find();
+  res.status(200).json(respuesta);
 };
 
 export default get;
