@@ -1,0 +1,40 @@
+{
+  "name": "setup-express",
+  "version": "0.0.1",
+  "description": "Configuracion de Backend con Express",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "babel src --out-dir dist",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoTimo/Setup-Express.git"
+  },
+  "author": "FernandoTimo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoTimo/Setup-Express/issues"
+  },
+  "homepage": "https://github.com/FernandoTimo/Setup-Express#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.22",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
