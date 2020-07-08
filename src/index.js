@@ -1,9 +1,12 @@
-import express from 'express';
+import '@babel/polyfill';
 import 'dotenv/config';
-import cors from 'cors';
+
+import express from 'express';
 const server = express();
-import Router from './router/index';
+
 import mongoose from 'mongoose';
+import cors from 'cors';
+import Router from './router/index';
 
 server.use(cors());
 server.use(express.urlencoded({ extended: true }));
