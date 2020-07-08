@@ -27,13 +27,13 @@
     "express-fileupload": "^1.1.7-alpha.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.22",
-    "mongoose-unique-validator": "^2.0.3"
+    "mongoose-unique-validator": "^2.0.3",
+    "@babel/polyfill": "^7.10.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/node": "^7.10.4",
-    "@babel/polyfill": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "nodemon": "^2.0.4"
   }
