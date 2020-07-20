@@ -8,6 +8,9 @@ export const BadUrl = async (req, res) => {
     url: `${url}`,
     error: `BAD URL`,
     method: method,
-    music: `https://www.youtube.com/watch?v=7NOSDKb0HlU`,
+    music_1: `https://www.youtube.com/watch?v=7NOSDKb0HlU`,
+    music_2: `https://www.youtube.com/watch?v=36YnV9STBqc`,
+    music_3: `:D`,
+    music_4: `:D`,
   });
 };

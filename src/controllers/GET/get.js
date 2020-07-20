@@ -4,5 +4,4 @@ export const Home = async (req, res) => {
     message: `${req.method} | Bienvenido al home :D`,
   });
 };
-
 export default Home;

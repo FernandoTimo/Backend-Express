@@ -30,7 +30,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.24",
     "mongoose-unique-validator": "^2.0.3",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
