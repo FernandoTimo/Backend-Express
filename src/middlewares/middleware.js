@@ -5,15 +5,7 @@ import path from 'path';
 import favicon from 'serve-favicon';
 import fileUpload from 'express-fileupload';
 import cors from 'cors';
-import session from 'express-session';
 import router from '../router/routes';
-middleware.use(
-  session({
-    secret: process.env.SESSIONSECRET,
-    resave: true,
-    saveUninitialized: false,
-  })
-);
 middleware.use(cors());
 middleware.use(express.urlencoded({ extended: true }));
 middleware.use(express.json());
