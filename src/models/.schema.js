@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-import validator from './node_modules/mongoose-unique-validator';
+import validator from 'mongoose-unique-validator';
 const newSchema = new Schema({
   name: { type: String },
 });
