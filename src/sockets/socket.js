@@ -2,9 +2,9 @@ import { listen } from 'socket.io';
 
 const socketsMain = (socket) => {
   socket.on('connection', (client) => {
-    console.log('Cliente conectado');
+    console.log(client.id);
     client.on('disconnect', () => {
-      console.log('Cliente desconectado');
+      console.log('--');
     });
   });
 };
