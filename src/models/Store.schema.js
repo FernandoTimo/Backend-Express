@@ -4,6 +4,7 @@ import { Fecha } from '../libraries/Fecha';
 const StoreSchema = new Schema({
   usuario: { type: String, required: [true, 'Este campo es requerido'] },
   boleta: { type: String, required: [true, 'Este campo es requerido'] },
+  comprobante: { type: String, required: [true, 'Este campo es requerido'] },
   productos: [
     {
       _id: false,
@@ -11,6 +12,7 @@ const StoreSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'Productos',
       },
+      precio: { type: Number, required: [true, 'Este campo es requerido'] },
       cantidad: { type: Number, required: [true, 'Este campo es requerido'] },
       total: { type: String, required: [true, 'Este campo es requerido'] },
     },
@@ -20,7 +22,7 @@ const StoreSchema = new Schema({
     ciudad: { type: String, required: [true, 'Este campo es requerido'] },
     distrito: { type: String, required: [true, 'Este campo es requerido'] },
     calle: { type: String, required: [true, 'Este campo es requerido'] },
-    referencia: { type: String, required: [true, 'Este campo es requerido'] },
+    referencia: { type: String },
   },
   turno: { type: String, default: 'TARDE' },
   date: { type: String, default: Fecha() },
