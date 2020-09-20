@@ -11,16 +11,16 @@ export const StoreSockets = (socket) => {
       console.log('>-------------------------<');
     });
     client.on('store-comprobante', (comprobante) => {
-      clienteTwilio.messages
-        .create({
-          body: 'Hola Fernando',
-          from: 'whatsapp:+14155238886',
-          to: `whatsapp:${process.env.TWILIO_NUMBER_SENDER}`,
-          // from: '+13345084568',
-          // to: 'whatsapp:+51983443031',
-        })
-        .then((res) => console.log(res))
-        .catch((err) => console.log(err));
+      // clienteTwilio.messages
+      //   .create({
+      //     body: 'Hola Fernando',
+      //     from: 'whatsapp:+14155238886',
+      //     to: `whatsapp:${process.env.TWILIO_NUMBER_SENDER}`,
+      //     // from: '+13345084568',
+      //     // to: 'whatsapp:+51983443031',
+      //   })
+      //   .then((res) => console.log(res))
+      //   .catch((err) => console.log(err));
       socket.emit('store-comprobante_recivido', 'recivido');
     });
     client.on('store-comprobante_validado', (StoreCode) => {
