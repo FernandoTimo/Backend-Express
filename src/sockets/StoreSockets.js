@@ -23,6 +23,10 @@ export const StoreSockets = (socket) => {
       //   .catch((err) => console.log(err));
       socket.emit('store-comprobante_recivido', 'recivido');
     });
+    client.on('form-data', (data) => {
+      console.log(data);
+      socket.emit('client-form-data', data);
+    });
     client.on('store-comprobante_validado', (StoreCode) => {
       socket.emit('store-comprobante_validado', StoreCode);
     });
