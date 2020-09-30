@@ -3,7 +3,11 @@ const clienteTwilio = twilio(
   process.env.TWILIO_ACCOUNT_SID,
   process.env.TWILIO_AUTH_TOKEN
 );
-export const StoreSockets = (socket) => {
+function Component() {
+  return <div>Component</div>;
+}
+
+export function StoreSockets(socket) {
   socket.on('connection', (client) => {
     console.log(client.id);
     console.log(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
@@ -31,4 +35,4 @@ export const StoreSockets = (socket) => {
       socket.emit('store-comprobante_validado', StoreCode);
     });
   });
-};
+}
