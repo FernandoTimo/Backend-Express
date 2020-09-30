@@ -3,9 +3,6 @@ const clienteTwilio = twilio(
   process.env.TWILIO_ACCOUNT_SID,
   process.env.TWILIO_AUTH_TOKEN
 );
-function Component() {
-  return <div>Component</div>;
-}
 
 export function StoreSockets(socket) {
   socket.on('connection', (client) => {

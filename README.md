@@ -23,7 +23,11 @@
 
 `npm i`
 
-3. ### Gooooo :D
+3. ### Renombra delete.env por .env
+
+`delete.env`
+
+4. ### Gooooo :D
 
 `npm run dev`
 
