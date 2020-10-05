@@ -21,24 +21,24 @@
   },
   "homepage": "https://github.com/FernandoTimo/Backend-Express#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.10.4",
+    "@babel/polyfill": "^7.11.5",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-fileupload": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.0",
+    "mongoose": "^5.10.7",
     "mongoose-unique-validator": "^2.0.3",
     "serve-favicon": "^2.5.0",
     "socket.io": "^2.3.0",
-    "twilio": "^3.49.2"
+    "twilio": "^3.49.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.1",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
     "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-env": "^7.11.5",
     "nodemon": "^2.0.4"
   }
 }
