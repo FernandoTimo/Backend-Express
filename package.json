@@ -1,6 +1,6 @@
 {
   "name": "setup-express",
-  "version": "0.0.1",
+  "version": "0.9.1",
   "description": "Configuracion de Backend con Express",
   "main": "src/index.js",
   "scripts": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FernandoTimo/Setup-Express.git"
+    "url": "git+https://github.com/FernandoTimo/Backend-Express.git"
   },
   "author": "FernandoTimo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FernandoTimo/Setup-Express/issues"
+    "url": "https://github.com/FernandoTimo/Backend-Express/issues"
   },
-  "homepage": "https://github.com/FernandoTimo/Setup-Express#readme",
+  "homepage": "https://github.com/FernandoTimo/Backend-Express#readme",
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
     "bcryptjs": "^2.4.3",
