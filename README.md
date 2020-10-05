@@ -21,7 +21,7 @@
 
 2. ### Renombra el archivo test.env por .env
 
-`.env`
+`~~test~~.env`
 
 3. #### Instala todas las dependencias:
 
