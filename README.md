@@ -25,7 +25,7 @@
 
 3. ### Renombra delete.env por .env
 
-`delete.env`
+`.env`
 
 4. ### Gooooo :D
 
