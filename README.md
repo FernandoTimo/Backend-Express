@@ -27,7 +27,7 @@
 
 `npm run dev`
 
-## <img src="https://i.ibb.co/jzHDPKL/Timoideas-Express-Server.jpg" width="300">
+## <img src="https://i.ibb.co/jzHDPKL/Timoideas-Express-Server.jpg" width="450">
 
 ### Advertencia!!
 
