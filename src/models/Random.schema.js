@@ -1,7 +1,7 @@
 import { Schema, model } from 'mongoose';
 import validator from 'mongoose-unique-validator';
 import { Fecha } from '../libraries/Fecha';
-const StoreSchema = new Schema({
+const randomSchema = new Schema({
   usename: {
     type: String,
     unique: true,
@@ -9,5 +9,5 @@ const StoreSchema = new Schema({
   },
   timestamp: { type: String, default: Fecha },
 });
-StoreSchema.plugin(validator, { message: 'El {PATH} debería ser único' });
-export default model('Order', StoreSchema);
+randomSchema.plugin(validator, { message: 'El {PATH} debería ser único' });
+export default model('Order', randomSchema);
