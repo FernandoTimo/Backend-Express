@@ -19,15 +19,11 @@
 
 `cd NombreDeMiAplicacion`
 
-3. ### Renombra el archivo test.env por .env
-
-- ~~test~~.env
-
-4. #### Instala todas las dependencias:
+3. #### Instala todas las dependencias:
 
 `npm i`
 
-5. ### Gooooo :D
+4. #### Gooooo :D
 
 `npm run dev`
 
