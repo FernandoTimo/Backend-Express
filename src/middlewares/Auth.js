@@ -6,7 +6,8 @@ export function Auth(req, res, next) {
   } else {
     res.status(200).json({
       ok: true,
-      message: 'Este es el mensaje de `middlewares/Auth.js`',
+      requiered: 'Esta es una ruta protegida por `middlewares/Auth.js`',
+      visita: 'http://localhost:4000/test',
     });
   }
 }
