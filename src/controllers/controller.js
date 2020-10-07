@@ -28,7 +28,7 @@ export const BadUrl = async (req, res) => {
   const url = `${method} => ${protocol}://${host}${path}`;
   res.status(200).json({
     url: `${url}`,
-    mensaje: 'Esta ruta NO esta protegida por , `middlewares/Auth.js`',
+    mensaje: 'Esta es una ruta NO PROTEGIDA por `middlewares/Auth.js`',
     musica: {
       ChillHop: `https://www.youtube.com/watch?v=7NOSDKb0HlU`,
       ChilledCow: `https://www.youtube.com/watch?v=5qap5aO4i9A`,
