@@ -13,7 +13,7 @@
 
 1. #### Clona este repositorio:
 
-`git clone https://github.com/FernandoTimo/Express NombreDeMiAplicacion`
+`git clone https://github.com/FernandoTimo/Backend-Express NombreDeTuAplicacion`
 
 2. #### Ubícate en el directorio:
 
