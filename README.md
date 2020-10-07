@@ -29,6 +29,12 @@
 
 ## <img src="https://i.ibb.co/zRV7x5J/Timoideas-Express-Server.jpg" width="450">
 
+- Puedes visitar http://localhost:4000
+  <img src="https://i.ibb.co/YQkjYHP/Timoideas-Express-Server-4000.jpg" width="450">
+
+- Puedes visitar http://localhost:4000/random
+  <img src="https://i.ibb.co/xfmz12r/Timoideas-Express-Server-4000-random.jpg" width="450">
+
 ### Advertencia!!
 
 Debes tener levantado **_mongodb_**
