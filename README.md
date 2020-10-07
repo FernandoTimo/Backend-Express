@@ -26,7 +26,8 @@
 4. #### Gooooo :D
 
 `npm run dev`
-![Servidor Funcionando funcionando](https://i.ibb.co/jzHDPKL/Timoideas-Express-Server.jpg)
+
+![Servidor Funcionando funcionando](https://i.ibb.co/jzHDPKL/Timoideas-Express-Server.jpg | width=50)
 
 ---
 
