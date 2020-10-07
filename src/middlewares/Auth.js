@@ -4,6 +4,9 @@ export function Auth(req, res, next) {
     req.token = token;
     next();
   } else {
-    res.status(200).json({ ok: false, message: 'No enviaste token' });
+    res.status(200).json({
+      ok: true,
+      message: 'Este es el mensaje de `middlewares/Auth.js`',
+    });
   }
 }
