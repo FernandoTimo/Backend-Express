@@ -1,5 +1,5 @@
 import { listen } from 'socket.io';
-import { connectSockets } from './StoreSockets';
+import { connectSockets } from './connnectSockets';
 import 'dotenv/config';
 
 const sockets = (server) => {
