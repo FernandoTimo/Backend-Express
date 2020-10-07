@@ -1,9 +1,9 @@
 import { listen } from 'socket.io';
-import { StoreSockets } from './StoreSockets';
+import { connectSockets } from './StoreSockets';
 import 'dotenv/config';
 
 const sockets = (server) => {
   const socket = listen(server, { path: '/timoideas' });
-  StoreSockets(socket);
+  connectSockets(socket);
 };
 export default sockets;
