@@ -1,0 +1,56 @@
+{
+  "Host URL": {
+    "scope": "http",
+    "prefix": "@base",
+    "body": ["@baseURL = http://localhost:4000"],
+    "description": "Host URL"
+  },
+  "Create a new variable": {
+    "scope": "http",
+    "prefix": "nv",
+    "body": ["@${1:variable} = ${2:host}"],
+    "description": "Create a new variable"
+  },
+  "Create a new GET request": {
+    "scope": "http",
+    "prefix": "GET",
+    "body": ["GET {{baseURL}}/${1:random}"],
+    "description": "Create a new GET request"
+  },
+  "Create a new POST request": {
+    "scope": "http",
+    "prefix": "POST",
+    "body": ["POST {{baseURL}}/${1:random}"],
+    "description": "Create a new POST request"
+  },
+  "Create a new PUT request": {
+    "scope": "http",
+    "prefix": "PUT",
+    "body": ["PUT {{baseURL}}/${1:random}/${2:id}"],
+    "description": "Create a new PUT request"
+  },
+  "Create a new DELETE request": {
+    "scope": "http",
+    "prefix": "DELETE",
+    "body": ["DELETE {{baseURL}}/${1:random}/${2:id}"],
+    "description": "Create a new DELETE request"
+  },
+  "Create a new FULL request": {
+    "scope": "http",
+    "prefix": "nfr",
+    "body": [
+      "### GET $1",
+      "GET {{baseURL}}/$1",
+      "",
+      "### POST $1",
+      "POST {{baseURL}}/$1",
+      "",
+      "### PUT $1$2",
+      "PUT {{baseURL}}/$1$2/id",
+      "",
+      "### DELETE $1$2",
+      "DELETE {{baseURL}}/$1$2/id"
+    ],
+    "description": "Create a new FULL request"
+  }
+}
