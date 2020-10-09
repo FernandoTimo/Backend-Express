@@ -1,7 +1,7 @@
 import '@babel/polyfill';
 import 'dotenv/config';
 import database from './database';
-import server from './server';
+import { server } from './server';
 
 const main = async () => {
   server.listen(process.env.PORT, () => {

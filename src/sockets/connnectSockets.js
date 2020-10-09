@@ -1,5 +1,5 @@
-export function connectSockets(socket) {
-  socket.on('connection', (client) => {
-    console.log(client.id);
-  });
-}
+import { socket } from './socket';
+
+socket.on('connection', (client) => {
+  console.log(client.id);
+});
