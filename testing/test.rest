@@ -1,4 +1,4 @@
 @baseURL = http://localhost:4000
 
+### ----------------------------------------------- GET /random
 GET {{baseURL}}/random
-POST  {{baseURL}}/random
