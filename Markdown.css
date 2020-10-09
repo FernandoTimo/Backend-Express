@@ -1,0 +1,142 @@
+body {
+  background: #011;
+}
+body * {
+  color: #f7f7f7;
+}
+li {
+  color: #ffdf2b !important;
+  font-weight: 700 !important;
+}
+h1 {
+  background: linear-gradient(90deg, #00ffbf, #4998ff, #a6f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-weight: 700 !important;
+}
+h2 {
+  width: auto;
+  background: linear-gradient(90deg, #00ffbf, #a6f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-weight: 700 !important;
+}
+h3 {
+  width: auto;
+  background: linear-gradient(90deg, #ff464f, #a6f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-weight: 700 !important;
+}
+hr {
+  background: #000;
+  color: #000;
+}
+h4 {
+  width: auto;
+  color: #ff464f;
+}
+em {
+  color: #8724ff !important;
+  cursor: default;
+}
+img {
+  border: 2vh solid #022 !important;
+  border-radius: 1vh;
+  box-shadow: 0 0 1vh #00ffbf;
+}
+a {
+  color: #00ffbf !important;
+  background: transparent !important;
+  padding: 0 1.5vh 0.3vh 1.5vh;
+  border-radius: 1vh;
+  opacity: 0.7;
+  transition: 0.3s;
+  border: 0.2vh solid #00ffbf;
+  box-shadow: 0 0 1vh #00ffbf;
+  margin-left: 3vh;
+  outline: none !important;
+}
+a:hover {
+  opacity: 1;
+  text-decoration: none !important;
+}
+blockquote {
+  color: #ffea74 !important;
+  background: transparent !important;
+  border: 0.2vh solid #ffea74 !important;
+}
+.vscode-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid transparent;
+}
+
+.vscode-body blockquote {
+  background-color: #59ff99;
+}
+
+.vscode-body pre {
+  color: #ee4040;
+  background: #ff3c3c !important;
+}
+
+.vscode-body code {
+  color: #59ff99;
+  background: #022;
+}
+
+.vscode-body pre code {
+  color: #37ffff;
+}
+
+.vscode-body code > div {
+  background: none;
+}
+
+.vscode-body table th,
+.vscode-body table td {
+  border: 1px solid #59ff99 !important;
+}
+
+.vscode-body.showEditorSelection .code-active-line:before {
+  border-left: 3px solid #49ce9b;
+}
+
+.vscode-body.showEditorSelection .code-line:hover:before {
+  border-left: 3px solid #49ce9b;
+}
+
+.vscode-body.showEditorSelection .code-line .code-line:hover:before {
+  border-left: none;
+}
+
+.vscode-body p,
+.vscode-body blockquote,
+.vscode-body ul,
+.vscode-body ol,
+.vscode-body dl,
+.vscode-body table,
+.vscode-body pre {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+body.vscode-body::-webkit-scrollbar {
+  background-color: transparent;
+}
+body.vscode-body::-webkit-scrollbar-thumb {
+  background-color: #aa9622;
+}
+body.vscode-body::-webkit-scrollbar-thumb:hover {
+  background-color: #ffea74;
+}
