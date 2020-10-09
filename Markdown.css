@@ -70,7 +70,7 @@ a:hover {
 blockquote {
   color: #ffea74 !important;
   background: transparent !important;
-  border: 0.2vh solid #ffea74 !important;
+  /* border: 0.2vh solid #ffea74 !important; */
 }
 .vscode-body {
   box-sizing: border-box;
