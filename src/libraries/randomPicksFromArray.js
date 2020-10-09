@@ -3,5 +3,7 @@
  * @param {Array} a Arreglo completo
  * @param {Number} n Cantidad de elecciones a realizar
  */
-export const randomPicksFromArray = (a, n) =>
-  new Array(n).fill(null).map(() => a[Math.floor(Math.random() * a.length)]);
+export const randomPicksFromArray = (array, cantidad = 1) =>
+  new Array(cantidad)
+    .fill(null)
+    .map(() => array[Math.floor(Math.random() * array.length)]);
