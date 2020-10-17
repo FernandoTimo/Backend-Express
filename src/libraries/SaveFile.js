@@ -1,4 +1,4 @@
-import { GenerarID } from './ids';
+import { customID } from './Identificador';
 import fs from 'fs';
 /**
  *  Guarda cualquier tipo de archivos en la ruta indicada, los renombra con un id por de 6 dígitos y mantiene la extension del archivo
@@ -15,7 +15,7 @@ export const SaveFile = async (files, opts) => {
       throw new Error('Invalid extension');
     const size = file[1].size / 1000;
     if (opts.maxSize && size > opts.maxSize) throw new Error('Invalid size');
-    const path = `${opts.path}/${GenerarID()}.${ext}`;
+    const path = `${opts.path}/${customID()}.${ext}`;
     if (fs.existsSync(path)) throw new Error('File already exist');
     !fs.existsSync(opts.path) && fs.mkdirSync(opts.path, { recursive: true });
     file[1].mv(path);
