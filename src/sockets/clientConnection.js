@@ -6,4 +6,7 @@ socket.on('connection', (client) => {
     message: `¡Hola ${client.id}, Socket.io de da la bienvenida!`,
     path: join(__dirname, 'clientConnection.js'),
   });
+  client.on('saludar', ({ message }) => {
+    socket.emit('saludo', { id: client.id, message });
+  });
 });
