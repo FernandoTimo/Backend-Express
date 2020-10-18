@@ -1,4 +1,4 @@
-import { customID } from './Identificador';
+import { customID } from './Identificadores';
 import fs from 'fs';
 /**
  *  Guarda cualquier tipo de archivos en la ruta indicada, los renombra con un id por de 6 dígitos y mantiene la extension del archivo
