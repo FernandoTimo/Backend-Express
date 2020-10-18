@@ -16,22 +16,4 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   "peacock.color": "21FA90"
-} // {
-//   "workbench.colorCustomizations": {
-//     "activityBar.activeBackground": "#e93f5f",
-//     "activityBar.activeBorder": "#18560a",
-//     "activityBar.background": "#e93f5f",
-//     "activityBar.foreground": "#e7e7e7",
-//     "activityBar.inactiveForeground": "#e7e7e799",
-//     "activityBarBadge.background": "#18560a",
-//     "activityBarBadge.foreground": "#e7e7e7",
-//     "statusBar.background": "#dc193e",
-//     "statusBar.foreground": "#e7e7e7",
-//     "statusBarItem.hoverBackground": "#e93f5f",
-//     "titleBar.activeBackground": "#dc193e",
-//     "titleBar.activeForeground": "#e7e7e7",
-//     "titleBar.inactiveBackground": "#dc193e99",
-//     "titleBar.inactiveForeground": "#e7e7e799"
-//   },
-//   "peacock.color": "#dc193e"
-// }
+}
