@@ -40,5 +40,3 @@
 ### Advertencia!!
 
 Debes tener levantado **_mongodb_**
-
-# Curriculum
