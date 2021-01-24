@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "babel src --out-dir dist",
-    "dev": "nodemon --exec babel-node src/index.js",
+    "dev": "babel-watch src/index.js",
     "server": "ngrok http 4000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,24 +21,23 @@
   },
   "homepage": "https://github.com/FernandoTimo/Backend-Express#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.11.5",
+    "@babel/polyfill": "^7.12.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-fileupload": "^1.2.0",
+    "express-fileupload": "^1.2.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.7",
+    "mongoose": "^5.11.13",
     "mongoose-unique-validator": "^2.0.3",
     "serve-favicon": "^2.5.0",
-    "socket.io": "^2.3.0",
-    "twilio": "^3.49.4"
+    "socket.io": "^3.1.0",
+    "twilio": "^3.55.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.11.6",
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.11.6",
-    "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.5",
-    "nodemon": "^2.0.4"
+    "babel-watch": "^7.3.0"
   }
 }
