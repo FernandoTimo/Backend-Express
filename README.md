@@ -27,7 +27,7 @@
 
 `npm run dev`
 
-## <img src="https://i.ibb.co/zRV7x5J/Timoideas-Express-Server.jpg" width="450">
+## <img src="https://i.ibb.co/ZLSgsHF/server.jpg" width="450">
 
 - Puedes visitar http://localhost:4000
 
@@ -40,4 +40,5 @@
 ### Advertencia!!
 
 Debes tener levantado **_mongodb_**
+
 # Curriculum
