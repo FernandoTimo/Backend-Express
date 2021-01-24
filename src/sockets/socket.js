@@ -1,5 +1,4 @@
-import { listen } from 'socket.io';
+import { Server } from 'socket.io';
 import { server } from '../server';
-export const socket = listen(server, { path: '/timoideas' });
-
+export const socket = new Server(server, { path: '/timoideas' });
 require('./clientConnection');
