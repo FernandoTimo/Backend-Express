@@ -5,7 +5,7 @@ import favicon from 'serve-favicon';
 import fileUpload from 'express-fileupload';
 import cors from 'cors';
 import router from '../router/routes';
-middleware.use(cors());
+middleware.use(cors({ origin: 'http://localhost:3000' }));
 middleware.use(express.urlencoded({ extended: true }));
 middleware.use(express.json());
 middleware.use(favicon(path.join(__dirname, '../../public/icons/favicon.ico')));
