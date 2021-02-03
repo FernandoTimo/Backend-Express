@@ -1,5 +1,6 @@
-import { socket } from './socket';
+// import { socket } from './socket';
 import { join } from 'path';
+import { io as socket } from '../server';
 socket.on('connection', (client) => {
   console.log(`\x1b[31mNuevoCliente:\x1b[0m`, client.id);
   client.emit('server', {
