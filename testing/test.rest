@@ -1,0 +1,10 @@
+@baseURL = http://localhost:4000
+
+### ----------------------------------------------- GET /
+GET {{baseURL}}
+
+### ----------------------------------------------- GET /        [TOKEN]
+GET {{baseURL}}
+token = 'express'
+### ----------------------------------------------- GET /random
+GET {{baseURL}}/random
