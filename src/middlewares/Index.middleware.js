@@ -4,7 +4,7 @@ import path from 'path';
 import favicon from 'serve-favicon';
 import fileUpload from 'express-fileupload';
 import cors from 'cors';
-import router from '../router/routes';
+import router from '../router/Index.routes';
 middleware.use(cors({ origin: 'http://localhost:3000' }));
 middleware.use(express.urlencoded({ extended: true }));
 middleware.use(express.json());

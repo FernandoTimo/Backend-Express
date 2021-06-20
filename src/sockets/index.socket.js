@@ -9,4 +9,4 @@ export const socket = new Server(server, {
     allowedHeaders: ['hola'],
   },
 });
-require('./client.socket');
+require('./Client.socket');
