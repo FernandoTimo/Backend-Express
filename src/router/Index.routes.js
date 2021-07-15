@@ -1,8 +1,8 @@
 import { Router } from 'express';
 const routes = Router();
 
-import { Index, BadUrl } from '../controllers/Index.controller';
-import { Auth } from '../middlewares/Auth.middleware';
+import { Index, BadUrl } from '../controllers/global.controller';
+import { Auth } from '../middlewares/auth.middleware';
 routes.route('/').get(Auth, Index);
 routes.route('*').get(BadUrl);
 
