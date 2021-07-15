@@ -1,9 +1,18 @@
 import { Router } from 'express';
 const routes = Router();
 
-import { Index, BadUrl } from '../controllers/global.controller';
+// CONTROLLERS
+import { Index, BadRequest } from '../controllers/global.controller';
+
+// MIDDLEWARES
 import { Auth } from '../middlewares/auth.middleware';
+
+// -- Index routes
 routes.route('/').get(Auth, Index);
-routes.route('*').get(BadUrl);
+
+// -- Global Routes
+
+// -- 404 Bad request route
+routes.route('*').get(BadRequest);
 
 export default routes;
