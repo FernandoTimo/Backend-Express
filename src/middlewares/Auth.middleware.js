@@ -4,14 +4,8 @@ export function Auth(req, res, next) {
     req.token = token;
     next();
   } else {
-    const protocol = req.protocol;
-    const host = req.headers.host;
-    const path = req.path;
-    const url = `${protocol}://${host}${path}random`;
-    res.status(200).json({
-      ok: true,
-      requiered: 'Esta es una ruta PROTEGIDA por `middlewares/Auth.js`',
-      visita: url,
-    });
+    const { method, protocol, headers } = req;
+    const url = `${method} => ${protocol}://${headers.host}/random`;
+    res.status(200).json({ ok: true, requiered: 'Auth error`', visita: url });
   }
 }
