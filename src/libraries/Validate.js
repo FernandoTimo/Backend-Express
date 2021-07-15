@@ -3,7 +3,7 @@
  * @param {{}} object Objeto que se iterará para verificar que no tenga keys ni values vacios.
  * @param {[String]} keys Keys que se filtraran del objeto object para validarlos.
  */
-export const ValidateObject = async (object, keys) => {
+export default async function ValidateObject(object, keys) {
   if (typeof object !== 'object' || !Object.entries(object).length)
     throw new TypeError('Invalid object');
   let Validated_Object = {};
@@ -19,4 +19,4 @@ export const ValidateObject = async (object, keys) => {
     }
   });
   return Validated_Object;
-};
+}
