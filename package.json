@@ -2,10 +2,10 @@
   "name": "setup-express",
   "version": "0.9.1",
   "description": "Configuracion de Backend con Express",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "babel src --out-dir build/src",
+    "start": "node build/index.js",
+    "build": "babel src --out-dir build",
     "dev": "babel-watch index.js",
     "server": "ngrok http 4000",
     "test": "echo \"Error: no test specified\" && exit 1"
