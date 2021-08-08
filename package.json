@@ -2,11 +2,11 @@
   "name": "setup-express",
   "version": "0.9.1",
   "description": "Configuracion de Backend con Express",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node build/index.js",
-    "build": "babel src --out-dir build/src && babel index.js --out-dir build/",
-    "dev": "babel-watch index.js",
+    "start": "node dist/index.js",
+    "build": "babel src --out-dir dist",
+    "dev": "babel-watch src/index.js",
     "server": "ngrok http 4000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,8 +31,7 @@
     "mongoose": "^5.11.14",
     "mongoose-unique-validator": "^2.0.3",
     "serve-favicon": "^2.5.0",
-    "socket.io": "^3.1.0",
-    "twilio": "^3.55.1"
+    "socket.io": "^3.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.13",
