@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node build/index.js",
     "build": "babel src --out-dir build",
-    "dev": "babel-watch index.js",
+    "dev": "babel-watch src/index.js",
     "server": "ngrok http 4000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
